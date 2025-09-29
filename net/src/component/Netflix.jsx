@@ -58,22 +58,22 @@ function Netflix() {
         <div className="w-full bg-black flex flex-col items-start justify-start gap-6 text-center px-4 sm:px-6 md:px-8 lg:px-24   lg:py-12">
             <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">More reasons to join </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4 items-stretch justify-start gap-6 w-full">
-                <div className="bg-[#462270] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
+                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
                     
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left font-bold">Enjoy on your TV.</h2>
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl text-left font-normal">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
                 </div>
-                <div className="bg-[#462270] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
+                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
                     
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left font-bold">Download and go.</h2>
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl text-left font-normal">Save your favourites easily and always have something to watch.</p>
                 </div>
-                <div className="bg-[#462270] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
+                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
                     
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left font-bold">Watch everywhere.</h2>
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl text-left font-normal">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV without paying more.</p>
                 </div>
-                <div className="bg-[#462270] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
+                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
                     
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left font-bold">Create profiles for kids.</h2>
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl text-left font-normal">Send kids on adventures with their favourite characters in a space made just for them—free with your membership.</p>
