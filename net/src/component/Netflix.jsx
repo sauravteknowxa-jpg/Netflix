@@ -55,7 +55,7 @@ function Netflix() {
 
 
 
-        <div className="w-full bg-black flex flex-col items-start justify-start gap-6 text-center px-4 sm:px-6 md:px-8 lg:px-48   lg:py-12">
+        <div className="w-full bg-black flex flex-col items-start justify-start gap-6 text-center px-4 sm:px-6 md:px-8 lg:px-24   lg:py-12">
             <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">More reasons to join </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4 items-stretch justify-start gap-6 w-full">
                 <div className="bg-[#462270] flex flex-col items-start justify-start gap-4 rounded-xl p-4 sm:p-6 md:p-8 lg:p-10 h-full">
