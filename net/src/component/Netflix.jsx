@@ -21,7 +21,7 @@ function Netflix() {
             </header>
 
             <div className="w-full mt-36">
-                <div className="flex flex-col items-center justify-center text-center mt-20 px-4 sm:px-8 md:px-20 lg:px-96">
+                <div className="flex flex-col items-center justify-center text-center mt-20 px-4 sm:px-8 md:px-20 lg:px-64">
                     <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-8xl font-bold mb-12">Unlimited movies, TV shows and more.</h1>
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-12">Starts at ₹149. Cancel at any time.</h2>
                     <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal mb-12">Ready to watch? Enter your email to create or restart your membership.</p>  
