@@ -12,7 +12,7 @@ function Netflix() {
             dots: true,
             infinite: true,
             speed: 500,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000
@@ -55,28 +55,34 @@ function Netflix() {
              <div className="w-full mx-auto  ">
                 <Slider {...settings}>
                         <div className="px-2">
-                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-                                <img src="/image/bads.webp" alt="Movie 1" className="w-full h-64 object-cover"/>
+                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg aspect-[2/3] ">
+                                <img src="/image/bads.webp" alt="Movie 1" className="w-full h-full object-cover"/>
                             </div>
                         </div>
                         
                         <div className="px-2">
-                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-                                <img src="/image/dhadak.webp" alt="Movie 2" className="w-full h-64 object-cover"/>
+                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg aspect-[2/3]">
+                                <img src="/image/dhadak.webp" alt="Movie 2" className="w-full h-full object-cover"/>
                             </div>
                         </div>
                         
                         <div className="px-2">
-                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-                                <img src="/image/narshima.webp" alt="Movie 3" className="w-full h-64 object-cover"/>
+                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg aspect-[2/3]">
+                                <img src="/image/narshima.webp" alt="Movie 3" className="w-full h-full object-cover"/>
                             </div>
                         </div>
                         
                         <div className="px-2">
-                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-                                <img src="/image/wed.webp" alt="Movie 4" className="w-full h-64 object-cover"/>
+                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg aspect-[2/3]">
+                                <img src="/image/wed.webp" alt="Movie 4" className="w-full h-full object-cover"/>
                             </div>
-                        </div>                 
+                        </div> 
+
+                        <div className="px-2">
+                            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg aspect-[2/3]">
+                                <img src="/image/sayiyara.webp" alt="Movie 5" className="w-full h-full object-cover"/>
+                            </div>
+                        </div>                
                 </Slider>
              </div>
         </div>
