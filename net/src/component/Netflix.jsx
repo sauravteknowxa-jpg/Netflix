@@ -21,38 +21,38 @@ function Netflix() {
   return (
     <>
         <div 
-          className="w-full  bg-cover bg-center bg-no-repeat py-6 sm:py-10 lg:py-20"
+          className="w-full  bg-cover bg-center bg-no-repeat  sm:py-4 lg:py-4"
           style={{backgroundImage:"url('/image/netflix.jpg')" }}>
 
-            <header className="flex flex-row items-center justify-between w-full px-4 sm:px-8 md:px-12 lg:px-50 py-6">
-                <span className="text-red-600 sm:text-2xl lg:text-6xl font-bold">NETFLIX</span>
+            <header className="flex flex-row items-center justify-between w-full p-3 sm:px-4 md:px-8 lg:px-12 py-4">
+                <span className="text-red-600 sm:text-2xl lg:text-4xl font-bold">NETFLIX</span>
                 <div className="flex flex-row items-center gap-4">
-                    <select name="" id="" className="text-white bg-black px-6 py-3 rounded-sm sm:text-sm lg:text-lg font-semibold border-2 border-gray-400">
+                    <select name="" id="" className="text-white bg-black px-4 py-1 rounded-sm sm:text-sm lg:text-lg font-semibold border-2 border-gray-400">
                         <option value="1" className="cursor-pointer">English</option>
                         <option value="2" className="cursor-pointer">Hindi</option>
                     </select>
-                    <button className="text-white bg-red-600 px-6 py-3 rounded-sm sm:text-sm lg:text-lg font-semibold">Sign In</button>
+                    <button className="text-white bg-red-600 px-4 py-1 rounded-sm sm:text-sm lg:text-lg font-semibold">Sign In</button>
                 </div>
             </header>
 
             <div className="w-full mt-36">
                 <div className="flex flex-col items-center justify-center text-center mt-20 px-4 sm:px-8 md:px-20 lg:px-72">
-                    <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-8xl font-bold mb-12">Unlimited movies, TV shows and more.</h1>
+                    <h1 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-6xl font-bold mb-12">Unlimited movies, TV shows and more.</h1>
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-12">Starts at ₹149. Cancel at any time.</h2>
                     <p className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal mb-12">Ready to watch? Enter your email to create or restart your membership.</p>  
                     <div className="flex flex-col items-center justify-center text-center mt-6 px-4 sm:px-8 md:px-16 ">
-                       <div className="flex flex-col sm:flex-row items-center w-full">
-                            <input type="text" placeholder="Email address" className="text-gray-800 bg-slate-400 w-full sm:w-auto px-4 py-3 rounded-sm text-lg sm:text-xl lg:text-2xl  mb-4 sm:mb-0"/>
-                            <button className="text-white bg-red-600 px-6 py-3 rounded-sm text-lg sm:text-xl lg:text-2xl font-semibold ml-0 sm:ml-4 w-full sm:w-auto">Get Started &gt;</button>
+                       <div className="flex flex-col sm:flex-row items-center pb-8 w-full">
+                            <input type="text" placeholder="Email address" className="text-gray-800 bg-slate-400 w-full sm:w-auto px-8 py-2 rounded-sm text-lg sm:text-xl lg:text-2xl  mb-4 sm:mb-0"/>
+                            <button className="text-white bg-red-600 px-4 py-2 rounded-sm text-lg sm:text-xl lg:text-2xl font-semibold ml-0 sm:ml-4 w-full sm:w-auto">Get Started &gt;</button>
                         </div>
                     </div>      
                 </div>
             </div>         
         </div>
 
-        <div className="w-full bg-black flex flex-col items-start justify-start gap-6 text-center px-4 sm:px-8 md:px-8 lg:px-48 py-8 lg:py-12">
+        <div className="w-full bg-black flex flex-col items-start justify-start gap-6 text-center px-4 sm:px-8 md:px-8 lg:px-24 py-8 lg:py-12">
             <h2 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 ">Trending Now</h2>
-             <div className="w-full mx-auto  ">
+             <div className="w-full   ">
                 <Slider {...settings}>
                         <div className="px-2">
                             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg aspect-[2/3] ">
@@ -92,22 +92,22 @@ function Netflix() {
         <div className="w-full bg-black flex flex-col items-start justify-start gap-6 text-center px-4 sm:px-6 md:px-8 lg:px-24 py-8 lg:py-12">
             <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">More reasons to join </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4 items-center justify-start gap-6 w-full">
-                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-2 sm:px-4 md:px-6 lg:px-10 py-6 h-full">
+                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-2 sm:px-4 lg:px-6 py-6 h-full">
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left font-bold text-wrap">Enjoy on your TV.</h2>
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl text-left font-normal text-wrap">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
                 </div>
 
-                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-2 sm:px-4 md:px-6 lg:px-10 py-6 h-full">                    
+                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-2 sm:px-4 lg:px-6 py-6 h-full">                    
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left font-bold text-wrap">Download and go.</h2>
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl text-left font-normal text-wrap">Save your favourites easily and always have something to watch.</p>
                 </div>
 
-                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-2 sm:px-4 md:px-6 lg:px-10 py-6 h-full">                   
+                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-2 sm:px-4 lg:px-6 py-6 h-full">                   
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left font-bold text-wrap">Watch everywhere.</h2>
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl text-left font-normal text-wrap">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV without paying more.</p>
                 </div>
 
-                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-2 sm:px-4 md:px-6 lg:px-10 py-6 h-full">                   
+                <div className="bg-[#1D1830] flex flex-col items-start justify-start gap-4 rounded-xl p-2 sm:px-4 lg:px-6 py-6 h-full">                   
                     <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl text-left font-bold text-wrap">Create profiles for kids.</h2>
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl text-left font-normal text-wrap">Send kids on adventures with their favourite characters in a space made just for them—free with your membership.</p>
                 </div> 
@@ -116,7 +116,7 @@ function Netflix() {
         </div>
 
 
-        <div className="w-full bg-black flex flex-col items-start justify-start gap-6 text-center px-4 sm:px-8 lg:px-48 py-4 lg:py-12">
+        <div className="w-full bg-black flex flex-col items-start justify-start gap-6 text-center px-4 sm:px-8 lg:px-24 py-4 lg:py-12">
             <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Frequently Asked Questions </h1>
             <div className="w-full flex flex-col items-center justify-center gap-4">
                 <div 
@@ -229,15 +229,15 @@ function Netflix() {
         </div>
         <div className=" w-full bg-black flex flex-col items-center justify-center text-center gap-2 px-4 sm:px-8 md:px-16 py-4 ">
                     <div className="flex flex-col sm:flex-row items-center justify-center w-full">
-                                <input type="text" placeholder="Email address" className="text-gray-800 bg-slate-400 w-full sm:w-auto px-4 py-3 rounded-sm text-lg sm:text-xl lg:text-2xl  mb-4 sm:mb-0"/>
-                                <button className="text-white bg-red-600 px-6 py-3 rounded-sm text-lg sm:text-xl lg:text-2xl font-semibold ml-0 sm:ml-4 w-full sm:w-auto">Get Started &gt;</button>
+                                <input type="text" placeholder="Email address" className="text-gray-800 bg-slate-400 w-full sm:w-auto px-8 py-2 rounded-sm text-lg sm:text-xl lg:text-2xl  mb-4 sm:mb-0"/>
+                                <button className="text-white bg-red-600 px-4 py-2 rounded-sm text-lg sm:text-xl lg:text-2xl font-semibold ml-0 sm:ml-4 w-full sm:w-auto">Get Started &gt;</button>
                     </div>
         </div>
         
 
         
         <footer className="w-full bg-black py-6 sm:py-10 lg:py-20">
-               <div className="flex flex-col items-start justify-start text-center mt-6 px-4 sm:px-8 md:px-12 lg:px-40 ">             
+               <div className="flex flex-col items-start justify-start text-center mt-6 px-6 sm:px-8 md:px-12 lg:px-24 ">             
                     <p className="text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl font-normal mb-12">Questions? Call 000-800-040-1843</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-center gap-4 w-full">
                         <div className="flex flex-col items-start justify-start ">
